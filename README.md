@@ -19,7 +19,7 @@ $('#my_dice_div_id').diceroll(amount, diceColor);
   // A dark-gray color D4;
   let amount = 4;
   let diceColor = '#333333';
-  $('#my_dice_div_id').diceroll(amount, diceColor);
+  $('#dice').diceroll(amount, diceColor);
 </script>
 ```
 ## Author
