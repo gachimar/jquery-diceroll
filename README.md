@@ -5,7 +5,7 @@ A dice animation for Jquery javascript
 
 ```js
 let amount = 1;
-let diceColor = #df1515;
+let diceColor = '#df1515';
 $('#my_dice_div_id').diceroll(amount, diceColor);
 ```
 
@@ -18,7 +18,7 @@ $('#my_dice_div_id').diceroll(amount, diceColor);
 <script>
   // A dark-gray color D4;
   let amount = 4;
-  let diceColor = #333333;
+  let diceColor = '#333333';
   $('#my_dice_div_id').diceroll(amount, diceColor);
 </script>
 ```
