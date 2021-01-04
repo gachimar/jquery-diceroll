@@ -1,0 +1,143 @@
+.dice-spin-one {
+	 -webkit-animation: dice-spin 2s linear;
+     animation: dice-spin 2s linear; 
+     
+     }
+.dice-spin-two {
+	 -webkit-animation: dice-spin-sec 4s linear;
+     animation: dice-spin-sec 4s linear; 
+     
+     }
+@-webkit-keyframes dice-spin {
+  	0% {
+	-webkit-filter: blur(7px);
+    -webkit-transform: rotate(0deg) ;
+            transform: rotate(0deg);
+	}
+	100% {
+		-webkit-filter: blur(7px);
+    	-webkit-transform: rotate(2400deg);
+       	transform: rotate(2400deg);
+	}
+}
+@-webkit-keyframes dice-spin-sec {
+  	0% {
+	-webkit-filter: blur(7px);
+    -webkit-transform: rotate(0deg) ;
+            transform: rotate(0deg);
+	}
+	100% {
+		-webkit-filter: blur(7px);
+    	-webkit-transform: rotate(4800deg);
+       	transform: rotate(4800deg);
+	}
+}
+
+.dice {
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	border-radius: 15%;
+}
+.pin-container {
+	display: inline-block;
+}
+.pin{
+	width: 23px;
+	height: 23px;
+	background-color: #fff;
+	border-radius: 50%;
+	position: relative;
+	top:12%;
+	margin: 0px 0 3px 0;
+}
+.blank{
+	width: 23px;
+	border-radius: 50%;
+	height: 23px;
+	position: relative;
+	top:12%;
+	margin: 3px 0;
+}
+.pulse{
+	-webkit-animation: pulse 2s linear;
+     animation: pulse 2s linear; 
+}
+.pulse-two{
+	-webkit-animation: pulse-two 4s linear;
+     animation: pulse-two 4s linear; 
+}
+@-webkit-keyframes pulse {
+  	0% {
+    	background-color: #fff;
+	}
+  	15% {
+    	background-color: transparent;
+	}
+	30% {
+    	background-color: #fff;
+	}
+	45% {
+    	background-color: transparent;    
+	}
+	60% {
+    	background-color: #fff;
+	}
+  	75% {
+    	background-color: transparent;
+	}
+	85% {
+    	background-color: #fff;
+	}
+	100% {
+    	background-color: transparent;    
+	}
+}
+@-webkit-keyframes pulse-two {
+  	0% {
+    	background-color: #fff;
+	}
+  	7% {
+    	background-color: transparent;
+	}
+	15% {
+    	background-color: #fff;
+	}
+	24% {
+    	background-color: transparent;    
+	}
+	30% {
+    	background-color: #fff;
+	}
+  	35% {
+    	background-color: transparent;
+	}
+	44% {
+    	background-color: #fff;
+	}
+  	57% {
+    	background-color: transparent;
+	}
+	65% {
+    	background-color: #fff;
+	}
+	74% {
+    	background-color: transparent;    
+	}
+	80% {
+    	background-color: #fff;
+	}
+  	85% {
+    	background-color: transparent;
+	}
+	94% {
+    	background-color: #fff;
+	}
+	100% {
+    	background-color: transparent;    
+	}
+}
+.dice-body{
+	position: relative;
+	top: 10%;
+}
